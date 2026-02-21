@@ -25,13 +25,16 @@ export default function Home() {
           </p>
         </Link>
 
-        {/* Tarjeta IA & Automatización (sigue siendo un div hasta que creemos su página) */}
-        <div className="p-8 border border-zinc-800 rounded-2xl hover:border-blue-500 transition-all bg-zinc-900/50">
+        {/* Tarjeta IA & Automatización */}
+        <Link 
+          href="/ai"
+          className="p-8 border border-zinc-800 rounded-2xl hover:border-blue-500 transition-all bg-zinc-900/50 block hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-500/20 cursor-pointer"
+        >
           <h2 className="text-2xl font-semibold mb-3">🤖 Agentic AI & n8n</h2>
           <p className="text-zinc-400">
             Desarrollo del agente Cosmo, flujos de automatización avanzados e integración de herramientas cognitivas.
           </p>
-        </div>
+        </Link>
 
       </div>
     </main>
